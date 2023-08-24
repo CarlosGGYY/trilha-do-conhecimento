@@ -1,0 +1,32 @@
+condicao = "01"
+while condicao == "01":
+ print("[01]Kelvin para Celsius:\n[02]Kelvin para Farenheit :\n[03]farenheit para Kelvin:\n[04]farenheit para Celsius :\n[05]Celsius para farenheit:\n[06]Celsius para Kelvin:")
+ escolha = input("escolha uma das opçoes acima: ")
+
+ if escolha == "01":
+     K = float(input("valor do grau:"))
+     print("resultado é:", K - 273.15)
+
+ elif escolha == "02":
+     K = float(input("valor do grau:"))
+     print("resultado é:", (K - 273.15) * 9/5 + 32)
+
+ elif escolha == "03":
+     F = float(input("valor do grau:"))
+     print("resultado é:", (F - 32) * 5/9 + 273.15)
+    
+ elif escolha == "04":
+     F = float(input("valor do grau:"))
+     print("resultado é:", (F - 32) * 5/9)
+    
+ elif escolha == "05":
+     C = float(input("valor do grau:"))
+     print("resultado é:", (C * 9/5) + 32)
+    
+ elif escolha == "06":
+     C = float(input("valor do grau:"))
+     print("resultado é:", (C + 273.15))
+    
+ print("deseja continuar?")
+ condicao = input("[01]Sim:\n[02]Não:")
+ 
