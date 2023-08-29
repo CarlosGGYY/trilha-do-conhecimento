@@ -1,0 +1,23 @@
+print("[01]Soma:\n[02]Subtração:\n[03]dividir:\n[04]Multiplicar:\n")
+escolha = input("escolha uma opção:")
+
+if escolha == "01":
+    v1 = float(input("escolha o valor 1:"))
+    v2 = float(input("escolha valor 2:"))
+    print("resultado:", v1 + v2)
+
+elif escolha == "02":
+    v1 = float(input("valor 1:"))
+    v2 = float(input("valor 2:"))
+    print("resultado:", v1 - v2)
+    
+elif escolha == "03":
+    v1 = float(input("valor 1:"))
+    v2 = float(input("valor 2:"))
+    print("resultado:", v1 / v2)
+    
+elif escolha == "04":
+    v1 = float(input("valor 1:"))
+    v2 = float(input("valor 2:"))
+    print("resultado:", v1 * v2)
+    
